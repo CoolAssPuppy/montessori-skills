@@ -1,0 +1,18 @@
+{
+  "name": "montessori-skills",
+  "version": "0.1.0",
+  "description": "Montessori skills for parents, guides, and school administrators.",
+  "author": {
+    "name": "Prashant Sridharan",
+    "url": "https://github.com/CoolAssPuppy"
+  },
+  "repository": "https://github.com/CoolAssPuppy/montessori-skills",
+  "license": "CC0-1.0",
+  "keywords": [
+    "montessori",
+    "education",
+    "parents",
+    "teachers",
+    "school-administration"
+  ]
+}

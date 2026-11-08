@@ -1,0 +1,309 @@
+{
+  "version": "0.1.0",
+  "plugin_name": "montessori-skills",
+  "counts": {
+    "Parents": 10,
+    "Guides": 12,
+    "Admin": 10,
+    "Integration": 1
+  },
+  "skills": [
+    {
+      "slug": "montessori-at-home",
+      "audience": "Parents",
+      "purpose": "Help a family choose a manageable Montessori approach for its actual home and child.",
+      "example_prompt": "Help us start Montessori at home with our 4-year-old who keeps pouring water at the kitchen sink. We rent a small apartment and already have a low stool.",
+      "description": "Choose a small Montessori starting plan for a real home from one observed interest, one accessible change, and one purposeful activity. Use when a family asks how to begin Montessori at home, what to try first, or how to avoid buying a classroom. For shelf layout and hazards, use prepared-home-environment. For one self-care task, use everyday-independence.",
+      "fn": "none",
+      "related": ["prepared-home-environment", "everyday-independence", "montessori-family-routines"]
+    },
+    {
+      "slug": "prepared-home-environment",
+      "audience": "Parents",
+      "purpose": "Review a home area for safe access, independent participation, and family use.",
+      "example_prompt": "Review our kitchen for a 2-year-old who uses a walker, plus a crawling baby. The detergent lives under the sink and a bookcase is free-standing.",
+      "description": "Audit a home area for safe reach, independent participation, furniture anchoring, and low-cost access changes. Use when a family asks how to set up a kitchen, bathroom, bedroom, or play space. For choosing what to try first, use montessori-at-home. For teaching one task in that space, use everyday-independence.",
+      "fn": "none",
+      "related": ["montessori-at-home", "everyday-independence", "classroom-environment-review"]
+    },
+    {
+      "slug": "everyday-independence",
+      "audience": "Parents",
+      "purpose": "Break an ordinary self-care or household task into achievable steps with responsive adult help.",
+      "example_prompt": "Show me how to teach our 5-year-old to put on a jacket without taking over, including what to do on rushed mornings.",
+      "description": "Break one self-care or household task into a slow demonstration, invitation, and least-intrusive help. Use when a family asks how to teach dressing, food prep, cleanup, or a chore. For the surrounding space, use prepared-home-environment. For a repeating daily sequence, use montessori-family-routines.",
+      "fn": "none",
+      "related": ["montessori-at-home", "prepared-home-environment", "montessori-family-routines"]
+    },
+    {
+      "slug": "montessori-family-routines",
+      "audience": "Parents",
+      "purpose": "Make a recurring home routine predictable without unnecessary conflict or rigid timing.",
+      "example_prompt": "School mornings are a fight. Help us make getting out the door calmer for our 6-year-old who wants to finish drawing.",
+      "description": "Design a predictable home routine with adult preparation, a bounded choice, optional cue, and fallback support. Use for mornings, meals, cleanup, bedtime, or leaving the house. For teaching one step inside the routine, use everyday-independence. For a social script, use grace-and-courtesy.",
+      "fn": "none",
+      "related": ["everyday-independence", "grace-and-courtesy", "respectful-limits"]
+    },
+    {
+      "slug": "grace-and-courtesy",
+      "audience": "Parents",
+      "purpose": "Prepare respectful communication for a concrete social situation.",
+      "example_prompt": "Our 6-year-old grabs toys when a friend visits. Help us practice asking for a turn, including if our child uses a communication board.",
+      "description": "Prepare a short adult model and optional role-play for one social situation, with spoken, signed, gesture, or AAC options. Use for greetings, turns, asking for help, or declining a hug. Do not use for an immediate safety incident; use respectful-limits. Do not demand eye contact, speech, or a forced apology.",
+      "fn": "none",
+      "related": ["respectful-limits", "montessori-family-routines", "inclusive-lesson-adaptations"]
+    },
+    {
+      "slug": "respectful-limits",
+      "audience": "Parents",
+      "purpose": "Respond to a difficult moment while protecting safety, dignity, and access.",
+      "example_prompt": "Our 3-year-old threw a wooden puzzle toward a sibling. What do we do in the moment, and what do we change afterward?",
+      "description": "Respond to a difficult moment with a factual description, an immediate safety boundary, a short adult script, and an environmental follow-up. Use for hitting, throwing, bolting, or other harm. For practicing language later, use grace-and-courtesy. Do not isolate, restrain as routine, or withhold care.",
+      "fn": "none",
+      "related": ["grace-and-courtesy", "montessori-family-routines", "factual-observation-notes"]
+    },
+    {
+      "slug": "montessori-school-transitions",
+      "audience": "Parents",
+      "purpose": "Prepare a child and family for starting school, a new classroom, or a change of program.",
+      "example_prompt": "Our child starts a 3-6 classroom next month and has never been in group care. Build a transition plan using the school's arrival notes.",
+      "description": "Build an individualized school-start or classroom-change plan covering home preparation, arrival, named staff support, pickup, and a review conversation. Use for first days, moving classrooms, or program changes. For choosing a school, use montessori-school-visit. For a conference agenda after placement, use montessori-conference-preparation.",
+      "fn": "none",
+      "related": ["montessori-school-visit", "family-onboarding", "montessori-conference-preparation"]
+    },
+    {
+      "slug": "montessori-school-visit",
+      "audience": "Parents",
+      "purpose": "Help a family observe and question a prospective school against its needs.",
+      "example_prompt": "We tour a mixed-age 3-6 class on Thursday. Our child uses a mobility aid. What should we watch and ask?",
+      "description": "Build a school-visit checklist that separates observed facts, school claims, and unanswered items. Use before or after touring a Montessori program. For preparing the first days after enrollment, use montessori-school-transitions. Do not photograph children or treat accreditation as proof of fit.",
+      "fn": "none",
+      "related": ["montessori-school-transitions", "admissions-inquiry-replies", "montessori-terms-explained"]
+    },
+    {
+      "slug": "montessori-conference-preparation",
+      "audience": "Parents",
+      "purpose": "Help a family turn observations and concerns into a useful conference agenda.",
+      "example_prompt": "Conference next week. Our child loves pouring work but avoids group line time. Make a one-page agenda from our notes and the school's last report.",
+      "description": "Turn family observations and school reports into a one-page conference agenda with strengths, factual examples, questions, and proposed follow-up. Use before a parent-teacher conference. For translating a term on the report, use montessori-terms-explained. Guides drafting the school's report should use progress-report-drafting.",
+      "fn": "none",
+      "related": ["montessori-terms-explained", "progress-report-drafting", "family-school-messages"]
+    },
+    {
+      "slug": "montessori-terms-explained",
+      "audience": "Parents",
+      "purpose": "Explain a Montessori term in the context where a family encountered it.",
+      "example_prompt": "The guide wrote that our child is 'normalizing' during the morning work cycle. Explain that word for this 4-year-old classroom.",
+      "description": "Explain a Montessori term in the setting where the family heard it, with a plain definition, age context, everyday example, source, and limit. Use for words such as work cycle, sensitive period, control of error, cosmic education, or normalization. For a conference agenda, use montessori-conference-preparation.",
+      "fn": "none",
+      "related": ["montessori-conference-preparation", "montessori-school-visit", "montessori-at-home"]
+    },
+    {
+      "slug": "factual-observation-notes",
+      "audience": "Guides",
+      "purpose": "Turn a guide's actual notes into a clear, objective observation.",
+      "example_prompt": "Turn these notes into an observation and keep interpretation separate: 10:12, Mira chose the pink tower, built it twice, left it on the rug when called to snack.",
+      "description": "Rewrite supplied notes as an objective observation with context, supplied time, action or exact quote, assistance, and a separately labeled interpretation. Use when a guide has raw notes to clean. For choosing a next lesson from observations, use observation-to-lesson-plan. For a family-facing report, use progress-report-drafting. Never invent times, quotes, or outcomes.",
+      "fn": "optional-write",
+      "related": ["observation-to-lesson-plan", "progress-report-drafting", "family-school-messages"]
+    },
+    {
+      "slug": "observation-to-lesson-plan",
+      "audience": "Guides",
+      "purpose": "Choose a small teaching or environmental response from observed evidence and the supplied curriculum.",
+      "example_prompt": "From this week's notes and our 3-6 practical-life album, propose one next presentation or environment change. Do not invent a lesson we do not have.",
+      "description": "Link supplied observations to one candidate lesson or environment change from the school's approved curriculum. Use after observation when choosing what to present next. For writing the observation itself, use factual-observation-notes. For preparing the named presentation, use montessori-lesson-preparation. Do not create official curriculum IDs.",
+      "fn": "none",
+      "related": ["factual-observation-notes", "montessori-lesson-preparation", "inclusive-lesson-adaptations"]
+    },
+    {
+      "slug": "montessori-lesson-preparation",
+      "audience": "Guides",
+      "purpose": "Prepare a guide to present a named lesson from the school's approved curriculum.",
+      "example_prompt": "Prepare me to present the number rods from our school's 3-6 math album. The child has already used the red rods.",
+      "description": "Prepare a named lesson from the school's approved album or curriculum, covering purpose, prerequisites, materials, sequence, presentation, feedback, and follow-up. Use when a guide names a specific presentation. For choosing which lesson comes next, use observation-to-lesson-plan. For access changes to that lesson, use inclusive-lesson-adaptations. Do not invent a certified album presentation.",
+      "fn": "none",
+      "related": ["observation-to-lesson-plan", "inclusive-lesson-adaptations", "material-care-and-rotation"]
+    },
+    {
+      "slug": "mixed-age-work-cycle",
+      "audience": "Guides",
+      "purpose": "Plan a mixed-age work period around observed needs and actual school constraints.",
+      "example_prompt": "Plan tomorrow's 3-hour work cycle for 24 children in 3-6, one assistant, snack prep, and a 10:30 music specialist.",
+      "description": "Plan a mixed-age work period with adult deployment, individual and small-group invitations, care needs, protected work, and transitions. Use for daily work-cycle planning. For room layout problems, use classroom-environment-review. For covering a guide's absence, use substitute-guide-handoff.",
+      "fn": "none",
+      "related": ["classroom-environment-review", "substitute-guide-handoff", "school-calendar-planning"]
+    },
+    {
+      "slug": "classroom-environment-review",
+      "audience": "Guides",
+      "purpose": "Review whether a classroom supports safe, accessible, purposeful work.",
+      "example_prompt": "Walk our 6-9 room from this morning's notes: a blocked aisle, unanchored shelf, and a language table with missing pieces.",
+      "description": "Audit a classroom from observation for movement paths, usable materials, access, and physical hazards, then list prioritized changes with an owner and a check-after-use field. Use for environment reviews. For material completeness and rotation, use material-care-and-rotation. For a home space, use prepared-home-environment.",
+      "fn": "none",
+      "related": ["material-care-and-rotation", "mixed-age-work-cycle", "prepared-home-environment"]
+    },
+    {
+      "slug": "material-care-and-rotation",
+      "audience": "Guides",
+      "purpose": "Maintain safe, complete materials and make justified availability changes.",
+      "example_prompt": "The binomial cube is missing a cube and the polishing tray has not been chosen in three weeks. What do we repair, keep, or change?",
+      "description": "Inventory materials for completeness, safety, cleaning, and justified availability changes with reasons and review dates. Use for repair, replenishment, or rotation decisions. For whole-room layout, use classroom-environment-review. Do not remove a child's ongoing work only to refresh shelves.",
+      "fn": "none",
+      "related": ["classroom-environment-review", "montessori-lesson-preparation", "montessori-curriculum-map"]
+    },
+    {
+      "slug": "montessori-curriculum-map",
+      "audience": "Guides",
+      "purpose": "Organize a supplied curriculum across relevant ages, areas, prerequisites, and evidence of learning.",
+      "example_prompt": "Map this supplied 6-12 cultural album across connections and prerequisites. Do not add lessons that are not in the file.",
+      "description": "Organize a supplied curriculum into a traceable map of IDs, age or program lens, connections, prerequisites, status definitions, and gaps. Use when a school provides its album, scope, or standards file. Do not generate a complete elementary or adolescent program. For a single presentation, use montessori-lesson-preparation.",
+      "fn": "none",
+      "related": ["montessori-lesson-preparation", "observation-to-lesson-plan", "progress-report-drafting"]
+    },
+    {
+      "slug": "progress-report-drafting",
+      "audience": "Guides",
+      "purpose": "Draft a child's progress report from supplied observations, work, and the school's rubric.",
+      "example_prompt": "Draft Jordan's spring report from these observations and our rubric. Leave blanks where evidence is missing.",
+      "description": "Draft a reviewable progress report from supplied observations, work samples, and the school's rubric, with strengths, evidence, support, next steps, and missing evidence. Use for report cards or narrative reports. For cleaning raw notes first, use factual-observation-notes. For selecting work samples, use learning-portfolios. Never invent progress.",
+      "fn": "optional-write",
+      "related": ["factual-observation-notes", "learning-portfolios", "montessori-conference-preparation"]
+    },
+    {
+      "slug": "learning-portfolios",
+      "audience": "Guides",
+      "purpose": "Select and explain work samples that show learning over time.",
+      "example_prompt": "From this folder, choose 5 samples that show Jordan's writing from September to March and note what each sample can and cannot show.",
+      "description": "Select and caption work samples that show learning over time, with provenance, context, learning link, access notes, and audience. Use for portfolios or work-sample collections. For the narrative report, use progress-report-drafting. Do not invent child reflections or treat a photo as proof of mastery.",
+      "fn": "optional-read",
+      "related": ["progress-report-drafting", "factual-observation-notes", "inclusive-lesson-adaptations"]
+    },
+    {
+      "slug": "family-school-messages",
+      "audience": "Guides",
+      "purpose": "Draft a clear message between a guide and family about a concrete matter.",
+      "example_prompt": "Draft a note to Mira's parents about yesterday's playground fall using only these facts. Do not send it.",
+      "description": "Draft a recipient-specific message from a guide to one family about a concrete child or classroom matter. Use for individual emails or notes. For a school-wide notice, use school-announcements. For a conference agenda, use montessori-conference-preparation. Show the exact draft and any notification effect before sending.",
+      "fn": "optional-write",
+      "related": ["school-announcements", "factual-observation-notes", "montessori-conference-preparation"]
+    },
+    {
+      "slug": "inclusive-lesson-adaptations",
+      "audience": "Guides",
+      "purpose": "Identify barriers and adapt a supplied lesson while preserving its objective.",
+      "example_prompt": "Adapt our pouring lesson for a child who uses a wheelchair and AAC. Keep the same objective and list how we will see whether the concept is there.",
+      "description": "Identify barriers in a supplied lesson and adapt materials, communication, timing, or position while preserving the objective. Use when a learner's access needs, home language, or support plan requires a change. For preparing the unmodified lesson, use montessori-lesson-preparation. Do not diagnose or promise treatment.",
+      "fn": "none",
+      "related": ["montessori-lesson-preparation", "observation-to-lesson-plan", "grace-and-courtesy"]
+    },
+    {
+      "slug": "substitute-guide-handoff",
+      "audience": "Guides",
+      "purpose": "Prepare a temporary guide to maintain continuity using approved classroom plans and procedures.",
+      "example_prompt": "I have a medical appointment Thursday. Prepare a handoff for an AMI-trained substitute using our classroom plan and allergy list channel.",
+      "description": "Prepare a need-to-know substitute handoff with contacts, routine, current work, adult roles, access and safety instructions, and escalation points. Use when a regular guide will be away. For planning the ordinary work cycle, use mixed-age-work-cycle. Do not invent medication or emergency instructions.",
+      "fn": "none",
+      "related": ["mixed-age-work-cycle", "classroom-environment-review", "montessori-staff-onboarding"]
+    },
+    {
+      "slug": "admissions-inquiry-replies",
+      "audience": "Admin",
+      "purpose": "Answer a prospective family's questions using the school's actual program and admissions information.",
+      "example_prompt": "A family asked if we have a 4-year-old space in January and whether we offer sliding scale. Reply using only the attached admissions sheet.",
+      "description": "Draft a factual admissions reply from the school's approved program and admissions information. Use for prospective-family questions. For a newly enrolled family, use family-onboarding. For a school-wide notice, use school-announcements. Do not invent fees, vacancies, or accreditation.",
+      "fn": "optional-read",
+      "related": ["family-onboarding", "montessori-school-visit", "school-announcements"]
+    },
+    {
+      "slug": "family-onboarding",
+      "audience": "Admin",
+      "purpose": "Help a newly enrolled family understand people, routines, communication, and next actions.",
+      "example_prompt": "The Rivera family enrolled in the 3-6 class starting 12 January. Build a welcome checklist from our packet and mark missing dates.",
+      "description": "Build a staged welcome checklist and packet for a newly enrolled family from approved dates, contacts, and required actions. Use after enrollment. For a prospective inquiry, use admissions-inquiry-replies. For the child's first-day plan, use montessori-school-transitions. Do not treat a draft invitation as sent.",
+      "fn": "optional-write",
+      "related": ["admissions-inquiry-replies", "montessori-school-transitions", "school-handbook-procedures"]
+    },
+    {
+      "slug": "school-handbook-procedures",
+      "audience": "Admin",
+      "purpose": "Turn an approved handbook section into a clear operational checklist without changing policy.",
+      "example_prompt": "Turn the late-pickup section on pages 14-15 of the 2026 handbook into a staff checklist. Do not add sanctions.",
+      "description": "Turn an approved handbook section into a versioned operational checklist linked to source page, role, trigger, steps, exceptions, and escalation. Use when staff need to follow existing policy. Do not rewrite policy or invent legal requirements. For family-facing wording of a change, use school-announcements.",
+      "fn": "none",
+      "related": ["school-announcements", "montessori-staff-onboarding", "family-onboarding"]
+    },
+    {
+      "slug": "montessori-staff-onboarding",
+      "audience": "Admin",
+      "purpose": "Orient a new staff member to their actual role, Montessori practice, and school procedures.",
+      "example_prompt": "Our new assistant starts Monday in the 0-3 community. Draft a two-week orientation from our staff handbook and observation policy.",
+      "description": "Build a role-specific staff onboarding plan with reading, observation, supervised practice, contacts, and review checkpoints. Use for new guides, assistants, or office staff. For a one-day substitute, use substitute-guide-handoff. Do not promise credentials the school cannot grant.",
+      "fn": "none",
+      "related": ["substitute-guide-handoff", "school-handbook-procedures", "montessori-parent-workshops"]
+    },
+    {
+      "slug": "school-calendar-planning",
+      "audience": "Admin",
+      "purpose": "Organize proposed school dates around approved constraints and the educational day.",
+      "example_prompt": "Place parent-education night, photo day, and the autumn festival around our protected morning work periods using the attached term dates.",
+      "description": "Organize proposed school dates around approved constraints, timezone, audience, conflicts, and protected work periods. Use for term planning and event placement. For the notice that announces a date, use school-announcements. Do not invent holidays or staff availability. Calendar writes can notify attendees.",
+      "fn": "optional-write",
+      "related": ["school-announcements", "mixed-age-work-cycle", "montessori-parent-workshops"]
+    },
+    {
+      "slug": "school-announcements",
+      "audience": "Admin",
+      "purpose": "Draft a school-wide notice from approved facts and an identified audience.",
+      "example_prompt": "Draft a notice that Thursday's work cycle ends at 11:00 for a fire drill. Audience is staff and families. Do not send.",
+      "description": "Draft a school-wide notice from approved facts for an identified audience, with verified date, required action, contact, and access checks. Use for all-school or all-classroom notices. For a message to one family, use family-school-messages. Show exact wording and recipients before any send.",
+      "fn": "optional-write",
+      "related": ["family-school-messages", "school-calendar-planning", "admissions-inquiry-replies"]
+    },
+    {
+      "slug": "tuition-billing-explanations",
+      "audience": "Admin",
+      "purpose": "Explain a family's tuition schedule or invoice using the actual agreement, policy, and ledger.",
+      "example_prompt": "Explain invoice 1042 using the attached agreement and ledger. Do not change amounts or mark it paid.",
+      "description": "Explain a tuition schedule or invoice line by line from the actual agreement, fee policy, and ledger. Use when a family asks what a charge means. For matching payments to bank or processor evidence, use payment-record-reconciliation. Do not mark an invoice paid without evidence or send without approval.",
+      "fn": "optional-write",
+      "related": ["payment-record-reconciliation", "family-school-messages", "school-handbook-procedures"]
+    },
+    {
+      "slug": "payment-record-reconciliation",
+      "audience": "Admin",
+      "purpose": "Compare payment records with independent source evidence and identify differences.",
+      "example_prompt": "Compare the March Stripe export with our ledger. List matches, unmatched items, and timing differences. Propose no journals.",
+      "description": "Compare school payment records with independent source evidence and list matches, unmatched entries, and timing differences. Use for bank, card, or processor reconciliation. For explaining an invoice to a family, use tuition-billing-explanations. Do not post journals, refunds, or settlements automatically.",
+      "fn": "optional-write",
+      "related": ["tuition-billing-explanations", "family-feedback-review", "future-nerds"]
+    },
+    {
+      "slug": "family-feedback-review",
+      "audience": "Admin",
+      "purpose": "Summarize family feedback accurately and turn it into reviewable questions or actions.",
+      "example_prompt": "Summarize these 18 anonymous survey comments into themes, keep contrary views, and list owner questions. Do not draft replies.",
+      "description": "Summarize family feedback into a de-identified theme table with counts where known, contrary views, evidence, and owner questions. Use for surveys or comment sets. For a reply to one family, use family-school-messages. Do not invent sentiment scores or expose identities.",
+      "fn": "none",
+      "related": ["family-school-messages", "montessori-parent-workshops", "school-handbook-procedures"]
+    },
+    {
+      "slug": "montessori-parent-workshops",
+      "audience": "Admin",
+      "purpose": "Plan a focused parent workshop around a real family question and the school's practice.",
+      "example_prompt": "Plan a 60-minute workshop on cleanup at home after three families asked about morning mess. Use our 3-6 practical-life practice.",
+      "description": "Plan a focused parent workshop around a real family question, with one learning objective, a sourced demonstration, practice, handout, and follow-up. Use for parent education sessions. For a school-wide invitation, use school-announcements. Do not sell branded products or diagnose children from anecdotes.",
+      "fn": "none",
+      "related": ["school-announcements", "family-feedback-review", "everyday-independence"]
+    },
+    {
+      "slug": "future-nerds",
+      "audience": "Integration",
+      "purpose": "Help an authorized user use verified FutureNerds capabilities safely, with explicit tenant, role, data, and side-effect checks.",
+      "example_prompt": "I want to record a private observation for synthetic child c_demo_001. Show the exact payload and who would be notified before anything is written.",
+      "description": "Use verified FutureNerds REST capabilities with account_context_get first, then a role the user actually holds, a minimal read, a proposed payload, and explicit approval before any write or notification. Use when the user names FutureNerds or FN records. Other skills still produce a standalone artifact when FN is unavailable. Do not collect tokens, guess MCP, or treat confirm:true as human approval.",
+      "fn": "optional-write",
+      "related": ["factual-observation-notes", "family-school-messages", "tuition-billing-explanations"]
+    }
+  ]
+}
