@@ -4,7 +4,7 @@
 
 The same `skills/` tree is packaged as standalone skill folders and as one plugin, `montessori-skills` 0.1.0: Claude Code via `.claude-plugin/plugin.json`, Portable Agent Plugins via root `plugin.json`.
 
-They do not diagnose children, invent albums or fees, or claim program-level efficacy. No external Montessori educator has reviewed this package. Original material is CC0 1.0 (SPDX: CC0-1.0); cited third-party works keep their own terms. See [Limits](#limits).
+They do not diagnose children, invent albums or fees, or claim program-level efficacy. No external Montessori educator has reviewed this package. Original material is CC0 1.0 (SPDX: CC0-1.0); cited third-party works keep their own terms.
 
 ## Install
 
@@ -136,14 +136,3 @@ Several names sit next to each other on purpose:
 - `family-school-messages` is one family, one matter. `school-announcements` is a defined group.
 - `factual-observation-notes` cleans notes. `observation-to-lesson-plan` chooses a next move. `montessori-lesson-preparation` prepares a named album lesson. `progress-report-drafting` writes the period report.
 - `tuition-billing-explanations` explains an invoice. `payment-record-reconciliation` matches independent payment evidence.
-
-## Limits
-
-- School curriculum, handbooks, calendars, agreements, and ledgers supplied at runtime control school-specific facts.
-- Current choking, infant sleep, and furniture-anchoring guidance override historical or practitioner examples that conflict with them.
-- Hapa Family is parent/practitioner testimony. Credit is local to the skills that used those videos.
-- Maria Montessori editions used: 1912 *The Montessori Method*; 1914 *Dr. Montessori's Own Handbook*; 1917 *Spontaneous Activity in Education*; selected later chapters and quotations listed in the source registry.
-- Read-depth labels, program-outcomes literature (E1/E2), and link-check notes live in [research/source-registry.md](research/source-registry.md). Skills do not adjudicate that literature.
-- No external Montessori guide, safety specialist, disability reviewer, privacy counsel, or accountant has reviewed this package.
-- Original skills, code, and docs are CC0 1.0. Citations do not relicense Montessori, Hapa, AMS/AMI, or other third-party works. See [NOTICE](NOTICE) and [LICENSE](LICENSE).
-- Static checks, executed install commands, and unevaluated fixture cases: [docs/release-review.md](docs/release-review.md).
