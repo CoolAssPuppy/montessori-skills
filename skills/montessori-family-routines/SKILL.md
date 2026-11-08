@@ -11,18 +11,9 @@ Change the sequence around a pressure point. Keep food, rest, hygiene, and help 
 
 ## When to use
 
-A repeating time of day keeps breaking: weekday mornings, leaving the park, cleanup after dinner, bedtime. The family wants fewer collisions, not a school timetable.
+A repeating time of day keeps breaking (morning, park exit, cleanup, bedtime). Need the jam, fixed constraints, age band, communication mode, and non-negotiables (medicines, meals, sleep, pickup).
 
-If one step inside the routine needs teaching, use `everyday-independence`. If the blow-up is already happening, use `respectful-limits` for the moment, then return here.
-
-## Inputs
-
-- The pressure point in one sentence
-- Fixed constraints (school start, bus, younger sibling, adult work)
-- Age band and communication mode
-- What the child is usually doing when the transition starts
-- What the family already tried, including charts and timers
-- Non-negotiables: medicines, meals, sleep need, pickup time
+One step to teach: `everyday-independence`. Harm already happening: `respectful-limits`, then return here.
 
 ## Procedure
 
@@ -35,10 +26,10 @@ If one step inside the routine needs teaching, use `everyday-independence`. If t
    3. Time to finish one last cycle of the current work, if safety allows
    4. Adult available to help complete the leaving task
 5. Treat visual charts and timers as optional tools. Hapa Family, "Managing Transitions," reports that children differ on timers. If a timer raises distress, drop it. Do not require eye contact before the next step.
-6. Keep fallback support: the adult can dress the child, carry the bag, or bring the snack. The routine still happens. Help is not a penalty.
-7. Change one part for several days. Review what actually occurred.
+6. Keep fallback support: the adult can dress the child, carry the bag, or bring the snack. The routine still happens. Do not treat help as a penalty.
+7. Change one part for several days. Review what actually occurred. Use the home language. For older children, agree the sequence the night before. For adolescents, negotiate owned parts; safety still needs an adult.
 
-Montessori's 1912 ch. VII timetable is a historical classroom sketch that she says was not followed in full. AMS work-period lengths are school recommendations. Neither is a home clock.
+1912 ch. VII timetable is a historical classroom sketch Montessori said was not followed in full. AMS work-period lengths are school recommendations. Neither is a home clock.
 
 Do not leave spoiled food as a cleanup lesson. Clean it with the child when possible, or the adult cleans it and the teaching happens at another time.
 
@@ -51,10 +42,6 @@ Do not leave spoiled food as a cleanup lesson. Clean it with the child when poss
 - Optional cue, and when not to use it
 - Fallback support
 - Review point (what to watch on the next 3 runs)
-
-## Adaptations
-
-Offer extra time after school or after rest. Use the home language. For older children, agree the sequence the night before and keep the same fallback. For adolescents, negotiate the non-negotiables and the parts they own; safety and household effects still need an adult.
 
 ## Safeguards
 

@@ -1,0 +1,12 @@
+{
+  "name": "montessori-skills",
+  "plugins": [
+    {
+      "name": "montessori-skills",
+      "source": {
+        "source": "local",
+        "path": "./"
+      }
+    }
+  ]
+}

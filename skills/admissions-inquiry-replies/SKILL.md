@@ -7,7 +7,7 @@ metadata:
 
 # Answer a prospective family
 
-Reply from the current admissions sheet. An inquiry is not an offer.
+Reply from the current admissions sheet. This draft makes no offer.
 
 ## When to use
 

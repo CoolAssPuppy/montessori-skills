@@ -33,7 +33,7 @@ Prospective questions: `admissions-inquiry-replies`. Child's first days: `montes
 6. Track unanswered questions with an owner.
 7. FN `parent_invitation_send` emails an invitation and the OpenAPI prose requires confirm. Show recipients before any send ([references/integration.md](references/integration.md)).
 
-A parent-education explanation is not a binding rule. Binding rules stay in the handbook excerpt.
+Parent-education wording does not bind; handbook excerpts do.
 
 ## Output
 

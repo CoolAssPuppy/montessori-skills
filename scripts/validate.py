@@ -156,13 +156,18 @@ def test_plugin_schema(errors: list[str]) -> None:
         jsonschema.validate(plugin, schema)
     except Exception as e:
         fail(f"portable plugin.json: {e}", errors)
-    if plugin.get("license"):
-        fail("license present without authorization", errors)
+    if plugin.get("license") != "CC0-1.0":
+        fail(f"portable plugin.json license {plugin.get('license')!r} != CC0-1.0", errors)
     claude = json.loads((ROOT / ".claude-plugin" / "plugin.json").read_text())
     if claude.get("name") != "montessori-skills":
         fail("claude plugin name", errors)
-    if "license" in claude:
-        fail("claude license present without authorization", errors)
+    if claude.get("license") != "CC0-1.0":
+        fail(f"claude plugin.json license {claude.get('license')!r} != CC0-1.0", errors)
+    license_path = ROOT / "LICENSE"
+    if not license_path.exists():
+        fail("missing LICENSE", errors)
+    elif "CC0 1.0 Universal" not in license_path.read_text():
+        fail("LICENSE is not CC0 1.0 Universal", errors)
     if "mcpServers" in claude or (ROOT / "mcp.json").exists() or (ROOT / ".mcp.json").exists():
         fail("unexpected MCP config", errors)
 

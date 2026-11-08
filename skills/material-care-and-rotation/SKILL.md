@@ -30,7 +30,7 @@ Whole-room layout: `classroom-environment-review`. Lesson sequence: `montessori-
 3. Follow written cleaning directions. Do not invent a disinfection protocol.
 4. Formal classroom sequence: missing control pieces pause the presentation. Repair or replace before presenting. *Method* ch. XX: sequence and error control vary by material.
 5. Availability change: write the reason (incomplete; unsafe; child using it elsewhere; crowding; seasonal). No inspected primary text sets a weekly rotation rule. Do not pull a child's ongoing work to "freshen" a shelf.
-6. Unused is not unreadiness. Note last observed use, then watch, ask the child, or wait. Hapa Family (H4) notes children may dislike particular materials; that is not a classroom discard rule by itself.
+6. Unused material does not mean unreadiness. Note last observed use, then watch, ask the child, or wait. Hapa Family (H4) notes children may dislike particular materials; dislike alone does not justify discarding a classroom sequence.
 7. Set a review date. DIY replacements need the same safety checks as purchased ones.
 
 Home selections may rotate more freely than a school sequence; still keep safety and a way to bring work back.

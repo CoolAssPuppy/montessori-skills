@@ -55,7 +55,7 @@ Preserve AAC, sign, or gesture as valid communication in the observed field. Wri
 
 ## Safeguards
 
-See [references/records.md](references/records.md). A pseudonym can still identify a child. One event is not a trend.
+See [references/records.md](references/records.md). A pseudonym can still identify a child. One event does not establish a trend.
 
 ## Optional FN
 

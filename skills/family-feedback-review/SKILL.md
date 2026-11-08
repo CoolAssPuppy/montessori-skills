@@ -25,7 +25,7 @@ A reply to one family: `family-school-messages`. Workshop follow-up: `montessori
 
 ## Procedure
 
-1. State the denominator. "18 of 40 families" is usable. A mood without a count is not.
+1. State the denominator, e.g. 18 of 40 families. A mood label without a count cannot support a theme claim.
 2. Group comments while keeping their meaning. White: listen to understand; let staff reflect. S6: culturally aware partnership.
 3. Keep contrary and minority views in the table, not in a footnote you skip.
 4. Separate requests ("more outdoor time") from reported events ("pickup was 20 minutes late on 3 Oct"). Route urgent safeguarding out of this summary into the human procedure.
@@ -45,7 +45,7 @@ If comments mix languages, do not translate meaning you are unsure of; mark for 
 
 ## Safeguards
 
-See [references/records.md](references/records.md). Self-selected feedback is not all families.
+See [references/records.md](references/records.md). Self-selected feedback does not represent all families.
 
 ## Sources and limits
 

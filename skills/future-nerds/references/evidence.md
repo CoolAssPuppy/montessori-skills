@@ -11,12 +11,12 @@ None. This is a record-system adapter.
 
 ## FutureNerds public contract (T1)
 
-- [https://www.futurenerds.dev/api/openapi](https://www.futurenerds.dev/api/openapi) read 8 Nov 2026. OpenAPI 3.1.0, info version 1.0.0, server https://www.futurenerds.dev.
-- 452 operations enumerated. Selected identity, child, observation, assessment, incident, absence, message, calendar, and billing contracts inspected.
+- [https://www.futurenerds.dev/api/openapi](https://www.futurenerds.dev/api/openapi) fetched 8 Nov 2026. Use this URL at runtime; do not rely on the snapshot below if the live document differs.
+- Authoring snapshot (same GET): OpenAPI `3.1.0`, `info.version` `1.0.0`, server `https://www.futurenerds.dev`, 452 unique `operationId`s. HTTP `bearerAuth` JWT described as a Supabase access token. Paths `/api/mcp/tools/{operationId}`; `account_context_get` is POST with an empty JSON object.
+- Selected identity, child, observation, assessment, incident, absence, message, calendar, and billing contracts inspected. Operation names used in the skill (`account_context_get`, `child_get`, `child_list`, `observation_create`, `progress_assessment_create`, `incident_report_file`, `absence_report`, `message_send`, `message_school_wide_send`, `parent_invitation_send`, `billing_invoice_send`, `billing_invoice_create`, and related send/pay/refund/cancel tools) were present in that snapshot.
 - No authenticated request. No MCP session. Bearer REST only.
-- `account_context_get`: empty object; lists schools, roles, actions.
 - Role enums vary; a parameter cannot confer a role.
-- Notification effects taken from operation summaries (observation, assessment, incident, absence, invoice send).
+- Notification effects taken from operation summaries (observation, assessment, incident, absence, invoice send). Re-read the live summary before a write.
 
 ## Packaging boundary (T2-T5)
 

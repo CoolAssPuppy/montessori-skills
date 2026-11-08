@@ -53,7 +53,7 @@ Interpreters, captions, seated practice, large-print handout. Evening and daytim
 
 ## Safeguards
 
-No product sales pitch. No guaranteed outcomes. Expert Montessori review of presentations is still pending for this package.
+No product sales pitch. No guaranteed outcomes. Do not present the outline as externally reviewed Montessori training.
 
 ## Sources and limits
 

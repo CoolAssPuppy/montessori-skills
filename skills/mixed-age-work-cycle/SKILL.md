@@ -28,7 +28,7 @@ Room problems: `classroom-environment-review`. Absence coverage: `substitute-gui
 ## Procedure
 
 1. Write the protected block from the school's timetable. AMS current recommendations: infant/toddler at least 2 hours including care and rest; early childhood and elementary at least 2 hours on 4 days, 3 hours on 5 days optimal; secondary at least 2 hours for core subjects. A6 (late 1990s public-sector PDF) mentioned 90 minutes to 3 hours. Prefer A2 for a claim about current AMS recommendations and say so if the school's own handbook differs. The school's handbook wins.
-2. Place adults: who greets, who presents, who protects a concentrating child, who handles care. Older children may help; they are not unpaid staff.
+2. Place adults: who greets, who presents, who protects a concentrating child, who handles care. Older children may help; they remain children, not unpaid staff.
 3. List individual invitations and one small group at most unless the program is elementary/adolescent seminar work the school already runs. *To Educate the Human Potential* ch. II describes younger observers and different interests in the same material. Adolescent excerpts (AMI, *From Childhood to Adolescence* p. 73) mention changeovers and quiet: schedule both.
 4. Put specialties around the work period when the school can. If a 10:30 specialist is fixed, show who leaves, who stays, and how the room remains usable.
 5. Plan transitions with the same care as the work: snack, outdoor, pickup. Review whose participation was cut short.

@@ -29,7 +29,7 @@ Narrative report: `progress-report-drafting`. Raw notes: `factual-observation-no
 2. Prefer process: drafts, revisions, different response modes (photo of a construction, AAC printout, video still the school already authorized).
 3. Record independence vs help on each card.
 4. Quote the child only from supplied wording. Empty child-voice field if none.
-5. Balance: include struggle and incomplete work when it shows learning. Polished product is not the same as learning. Attendance in a photo is not mastery.
+5. Balance: include struggle and incomplete work when it shows learning. A polished product or presence in a photo does not prove mastery.
 6. Check permissions before any display beyond the intended audience. Public walls need a separate approval.
 7. Optional FN photo reads (`photo_child_list`) are roster-adjacent. Minimize. Synthetic ids in examples.
 

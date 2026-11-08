@@ -35,7 +35,7 @@ Ordinary planning: `mixed-age-work-cycle`. New hire orientation: `montessori-sta
 6. Tell the substitute what to leave in writing for the returning guide.
 7. Confirm contacts still work.
 
-*Spontaneous Activity* ch. IV-V: the adult prepares and the environment should already be usable. A handoff is not Montessori certification and does not expand FN permissions.
+*Spontaneous Activity* ch. IV-V: the adult prepares and the environment should already be usable. A handoff does not confer Montessori certification and does not expand FN permissions.
 
 ## Output
 

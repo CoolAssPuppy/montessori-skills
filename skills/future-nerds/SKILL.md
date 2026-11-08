@@ -9,28 +9,28 @@ metadata:
 
 Optional adapter. Educational skills in this library still work with no FN account.
 
+## Prerequisite
+
+A host that can send authenticated HTTP JSON to FutureNerds using a bearer token the host already holds. Do not paste tokens into chat or git. Do not add `mcp.json`.
+
+GET [https://www.futurenerds.dev/api/openapi](https://www.futurenerds.dev/api/openapi) and use that document's current `operationId` values, methods, and paths. Schema version and operation-count snapshots are in [references/evidence.md](references/evidence.md).
+
+The public document describes HTTP bearer JWT (Supabase access token) and paths `/api/mcp/tools/{operationId}`. Reads often use POST. That is REST, not proof of MCP, OAuth, or a plugin connector.
+
 ## When to use
 
 The user names FutureNerds, FN, or a documented FN operation, and wants records read or a change proposed.
 
 If they want an observation written as prose, start with `factual-observation-notes`. One family email: `family-school-messages`. Invoice explanation: `tuition-billing-explanations`. Then return here only for the record-system step.
 
-## Inputs
-
-- Task they want
-- Client-approved authentication already in their host (never paste a token)
-- School name if they have more than one
-- Record ids they already know
-- Whether they intend a read, a draft, or an approved write
-
 ## Procedure
 
-1. **No guessed transport.** Public contract: OpenAPI 3.1.0, API 1.0.0, server `https://www.futurenerds.dev`, bearer JWT described as a Supabase access token, 452 operations. Paths look like `/api/mcp/tools/{operation}`. Reads may be POST. This was read as REST. It does not prove MCP, OAuth, or a plugin server. Do not add `mcp.json`.
+1. Confirm the operation exists in the live OpenAPI before proposing a call.
 2. Call **`account_context_get`** with `{}` first. Use returned `schools[].school_id`, `roles`, and capabilities. If `next_step` says to create a school, stop; this skill does not create tenants.
-3. Resolve **school and a role actually held**. Duplicate school names: ask. Role argument cannot grant permission. If the user is only `parent`, do not call administrator-only billing list.
+3. Resolve **school and a role actually held**. Duplicate school names: ask. A role argument cannot grant permission. If the user is only `parent`, do not call administrator-only billing list.
 4. **Minimal read.** Prefer `child_get` with an id over `child_list`. If `child_list` returns two "Jordan"s, stop for `child_id`. Do not export a roster for a generic lesson.
 5. **Standalone artifact** from the relevant skill, using only returned or user-supplied facts.
-6. **Propose** the exact JSON body, visibility flags, and notification table. Known effects:
+6. **Propose** the exact JSON body, visibility flags, and notification table. Known effects from the contract summaries (re-check live text):
    - `observation_create` parent-visible: notifies guardians; `is_private` summary: notifies nobody
    - `progress_assessment_create` `shared_with_parent`: notifies guardians
    - `incident_report_file`: notifies every involved child's guardians in-app, email, push
@@ -40,7 +40,7 @@ If they want an observation written as prose, start with `factual-observation-no
    - `parent_invitation_send` / bulk: emails invitations; prose requires confirm
    - `billing_invoice_send` / resend / bulk send: emails parent + notification; prose requires confirm
    - `billing_invoice_create` / pay / refund / cancel: financial mutation; prose requires confirm; `confirm` may be optional in JSON schema; still require human approval of this payload; `service_month` pattern `YYYY-MM-01`
-7. **Approval** is the user accepting this artifact, audience, and effect. `confirm: true` is not enough. Show the draft. Wait.
+7. **Approval** is the user accepting this artifact, audience, and effect. `confirm: true` does not replace that. Show the draft. Wait.
 8. **Execute once.** Report `success`, ids, `meta.requestId`. Uncertain result: do not retry a mutation. Reads may be retried.
 9. **No access:** keep the standalone artifact and state the limitation.
 

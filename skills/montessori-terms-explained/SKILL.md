@@ -11,16 +11,9 @@ Define the word as this school or book used it, then say what an adult might act
 
 ## When to use
 
-A family met a term in a handbook, report, tour, or social post and wants it in plain language.
+A family met a term in a handbook, report, tour, or social post and wants it in plain language. Need the exact sentence, age band, and who said it (guide, website, book), plus the school's glossary if supplied.
 
 If they need a meeting plan, use `montessori-conference-preparation`. If they are touring, use `montessori-school-visit`.
-
-## Inputs
-
-- The exact term and the sentence around it
-- Child's age band / program
-- Who said it (guide, website, book)
-- The school's glossary if supplied
 
 ## Procedure
 
@@ -30,14 +23,14 @@ If they need a meeting plan, use `montessori-conference-preparation`. If they ar
 4. Give one everyday example in a home or classroom that matches the age band.
 5. State the limit. Historical words may be exclusionary; replace them in the explanation without pretending Montessori wrote the modern phrase.
 
-Starter map (expand from evidence, do not invent album details):
+Starter map (expand from evidence; do not invent album details):
 
 | Term | Working sense | Limit |
 | --- | --- | --- |
 | Independence | Doing a real task with teaching and available help (*Method* ch. V; *Handbook* "Freedom") | Not abandonment |
 | Presentation | Short, visible demonstration (*Method* ch. VI) | Not a lecture |
 | Control of error | The material or sequence shows a mismatch (*Method* ch. XII, XX) | Differs by material; not a moral failing |
-| Work cycle / uninterrupted work | A protected period for chosen work (AMS current durations on the core-components page) | School recommendation, not a home law; 1912 timetable is not the source |
+| Work cycle / uninterrupted work | A protected period for chosen work (AMS current durations on the core-components page) | School recommendation, not a home law; 1912 timetable is historical |
 | Sensitive period | Heightened interest in a kind of activity (treat as educational language) | Not a deadline or diagnosis |
 | Normalization | Historical Montessori word for settling into useful work | Not a medical term; not a demand to appear neurotypical |
 | Cosmic education | Elementary cultural frame connecting knowledge (*To Educate the Human Potential* ch. I-II) | Not a science textbook and not eligibility for "literate children only" |
@@ -61,11 +54,7 @@ AMS glossary "learning styles" wording does not validate fixed learner categorie
 
 ## Adaptations
 
-Explain in the home language. Avoid ableist historical labels from early texts.
-
-## Safeguards
-
-Do not diagnose from a term. Do not promise that using the word correctly will change a child.
+Explain in the home language. Avoid ableist historical labels from early texts. Do not diagnose from a term.
 
 ## Sources and limits
 

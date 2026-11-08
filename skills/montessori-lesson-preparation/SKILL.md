@@ -29,7 +29,7 @@ If the lesson is still being chosen, use `observation-to-lesson-plan`. If barrie
 1. Read the supplied lesson. Quote purpose in the album's terms. If the file is missing, stop and ask for it. Do not reconstruct a proprietary presentation from memory of another training.
 2. Confirm age context. Early childhood: isolated difficulty, few words, child repeats (*Method* ch. VI; *Handbook* "Motor Education"). Elementary: keep the hands in the work and leave room for questions and imagination (*To Educate the Human Potential* ch. II). Adolescent: do not force a 3-6 shelf ritual onto social, practical, or study work the program actually uses.
 3. List materials. Incomplete or unsafe material pauses the presentation.
-4. Write the adult sequence: invitation, where to sit or stand, what the hands do, what is said or signed, when silence is better. Three-period naming is historical for some language/sensorial work (*Method* ch. XVII). It is not required for every lesson.
+4. Write the adult sequence: invitation, where to sit or stand, what the hands do, what is said or signed, when silence is better. Three-period naming is historical for some language/sensorial work (*Method* ch. XVII); skip it unless the supplied album uses it.
 5. Name how feedback works for this material: the child's senses, a control of error in the object, or adult-supplied check (*Method* ch. XII vs XX). Do not shame an error.
 6. State when to stop, how the child may repeat, and what to observe next.
 7. English literacy: do not copy Italian letter order from ch. XVII. Coordinate with the school's language program and, for persistent difficulty, a specialist. IES K-3 themes (sounds to letters, decoding, connected text) are background only; the landing page was read, not the full guide.

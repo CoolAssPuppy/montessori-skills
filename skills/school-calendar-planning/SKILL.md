@@ -29,7 +29,7 @@ The notice itself: `school-announcements`. Classroom-level day: `mixed-age-work-
 2. Protect age-appropriate work periods (AMS current durations on A2; school handbook wins). A6: place specialties around work.
 3. Check room, staff, and access (ramps, captions, childcare for evening parent events if the school offers it).
 4. Show conflicts instead of hiding them. Name the approver.
-5. White: consistent communication with staff and families. Calendar planning is not a send.
+5. White: consistent communication with staff and families. Use `school-announcements` for the notice; this skill only places dates.
 6. FN `calendar_create` / `event_create` are writes and may notify. Confirm owning calendar, timezone, recipients, and approval ([references/integration.md](references/integration.md)).
 
 Do not invent holidays, statutory day counts, or staff availability.

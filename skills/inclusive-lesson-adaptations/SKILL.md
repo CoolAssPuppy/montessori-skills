@@ -33,7 +33,7 @@ Unmodified prep: `montessori-lesson-preparation`. Next-lesson choice: `observati
 6. Coordinate with specialists and family knowledge. Do not override an individualized plan or an essential safety rule.
 7. Write the observation check: what will show the concept, in this mode.
 
-NAEYC: home language, disability inclusion, meaningful scaffolds. Eye contact, silence, handwriting, and unsupported independence are not universal prerequisites.
+NAEYC: home language, disability inclusion, meaningful scaffolds. Do not treat eye contact, silence, handwriting, or unsupported independence as universal prerequisites.
 
 ## Output
 
